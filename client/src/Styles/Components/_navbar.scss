@@ -1,0 +1,65 @@
+
+nav{
+    .nav-wrapper{
+        background-color: #fff !important;
+        color: #000 !important;
+        .brand-logo{
+            font-family: 'Grand Hotel', cursive;
+            color: black !important;
+        }
+        ul a{
+                color: black !important;
+            
+            }
+            
+        }
+}
+.footer{
+    display: none;
+    position: sticky;
+    bottom:0rem;
+    z-index: 123;
+    background-color: #fff;
+    .page-footer {
+        background-color: #fff !important;
+        width:60%;
+        margin: auto;
+        text-align: center;
+        ul{
+            display: flex !important;
+            justify-content: space-between;
+            width:90%;
+            margin: auto;
+            .img{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translateY(-20%);
+                img{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    border-radius: 50%;
+                    margin-right: .5rem;
+                }
+                h6{
+                    line-height: 1.5rem;
+                    transform: translateY(-20%);
+                }
+
+            }
+            a{
+                color:black !important;
+                font-size: 1rem;
+            }
+        }
+    }
+    @media screen and (max-width:992px) {
+        display: block;
+    }
+    @media screen and (max-width:600px) {
+        display: block;
+        .page-footer{
+            width:100%;
+        }
+    }
+}

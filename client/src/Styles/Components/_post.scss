@@ -1,0 +1,32 @@
+.postcard{
+    flex:0.7;
+    margin-right: 1rem;
+    .card{
+        padding: .5rem;
+        width:100%;
+        .dp{
+            display: flex;
+            justify-content: space-between;
+            // position: relative;
+            h5{
+                
+                font-size: 3rem;
+            }
+            img{
+                width:1.8rem;
+                height: 1.8rem;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center center;
+                margin-right: .5rem;
+            }
+        }
+        img{
+            width:100%;
+            max-height: 30rem;
+            object-fit: contain;
+            text-align: center;
+        }
+    }
+   
+}
