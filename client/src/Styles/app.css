@@ -271,6 +271,7 @@ nav .nav-wrapper ul a {
           column-gap: 1rem;
   row-gap: 1rem;
   margin-top: 2rem;
+  min-height: 50vh;
 }
 
 .profile .posts img {
