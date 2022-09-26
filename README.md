@@ -31,10 +31,11 @@ https://instaclone7995.herokuapp.com/
 
 **Pictures Storage:** Cloudinary
 
+**Deployment:** Heroku
+
 
 
 
 ## Authors
 
 - [@manjeet2907](https://github.com/manjeet2907)
-
